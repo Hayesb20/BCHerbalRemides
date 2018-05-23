@@ -15,5 +15,4 @@ public class HomeScreen extends Activity {
         setContentView(R.layout.activity_home_screen);
     }
 
-    public void onClickJapan
 }
