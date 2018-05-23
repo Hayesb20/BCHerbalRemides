@@ -6,7 +6,7 @@ public class Drink {
     public static final Drink[] drinks = {
             new Drink("Sencha", "A popular green tea from Japan", R.drawable.sencha),
             new Drink("Wakocha", "A popular black tea from Japan", R.drawable.sencha),
-            new Drink("Matcha", "Highest quality beans roasted and brewed fresh", R.drawable.sencha)
+            new Drink("Matcha", "Unique powdered grean tea only exported from Japan", R.drawable.sencha)
     };
 
     //Each Drink has a name, description, and an image resource
