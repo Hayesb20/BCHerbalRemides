@@ -5,4 +5,12 @@
     <string name="country1">Japan</string>
     <string name="country2">China</string>
     <string name="country3">Britain</string>
+
+
+    <string name="starbuzz_logo">Starbuzz logo</string>
+    <string-array name="options">
+        <item>Drinks</item>
+        <item>Food</item>
+        <item>Stores</item>
+    </string-array>
 </resources>
