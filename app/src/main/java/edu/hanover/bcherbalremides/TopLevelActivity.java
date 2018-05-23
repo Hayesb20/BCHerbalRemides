@@ -12,7 +12,7 @@ public class TopLevelActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_top_level);
+        setContentView(R.layout.activity_home_screen);
         //Create an OnItemClickListener
         AdapterView.OnItemClickListener itemClickListener =
                 new AdapterView.OnItemClickListener(){

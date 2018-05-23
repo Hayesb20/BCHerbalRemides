@@ -2,15 +2,10 @@
 
     <string name="app_name">BnP Herbal Remedies</string>
     <string name="pickCountry">Please choose the country from which you want your tea</string>
-    <string name="country1">Japan</string>
-    <string name="country2">China</string>
-    <string name="country3">Britain</string>
 
-
-    <string name="starbuzz_logo">Starbuzz logo</string>
     <string-array name="options">
-        <item>Drinks</item>
-        <item>Food</item>
-        <item>Stores</item>
+        <item>Japan</item>
+        <item>China</item>
+        <item>Britain</item>
     </string-array>
 </resources>
