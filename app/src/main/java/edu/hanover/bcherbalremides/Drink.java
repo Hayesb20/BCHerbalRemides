@@ -4,9 +4,9 @@ public class Drink {
     private String name; private String description; private int imageResourceId;
     //drinks is an array of Drinks
     public static final Drink[] drinks = {
-            new Drink("Latte", "A couple of espresso shots with steamed milk", R.drawable.latte),
-            new Drink("Cappuccino", "Espresso, hot milk, and a steamed milk foam", R.drawable.cappuccino),
-            new Drink("Filter", "Highest quality beans roasted and brewed fresh", R.drawable.filter)
+            new Drink("Sencha", "A popular green tea from Japan", R.drawable.Sencha_Green_Tea),
+            new Drink("Wakocha", "A popular black tea from Japan", R.drawable.Sencha_Green_Tea),
+            new Drink("Matcha", "Highest quality beans roasted and brewed fresh", R.drawable.Sencha_Green_Tea)
     };
 
     //Each Drink has a name, description, and an image resource
