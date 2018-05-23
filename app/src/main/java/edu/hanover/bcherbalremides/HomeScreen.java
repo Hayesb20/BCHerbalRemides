@@ -14,5 +14,6 @@ public class HomeScreen extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home_screen);
     }
- //test
+      //testing
+
 }
