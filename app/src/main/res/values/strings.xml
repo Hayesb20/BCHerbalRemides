@@ -2,6 +2,8 @@
 
     <string name="app_name">BnP Herbal Remedies</string>
     <string name="pickCountry">Please choose the country from which you want your tea</string>
+    <string name="order">Place Order</string>
+    <string name="response">Your order has been placed</string>
 
     <string-array name="options">
         <item>Japan</item>
