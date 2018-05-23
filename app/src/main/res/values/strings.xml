@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">BnP Herbal Remedies</string>
+    <string name="pickCountry">Please choose the country from which you want your tea</string>
+    <string name="country1">Japan</string>
+    <string name="country2">China</string>
+    <string name="country3">Britain</string>
+</resources>
