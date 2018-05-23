@@ -5,8 +5,8 @@ public class Drink {
     //drinks is an array of Drinks
     public static final Drink[] drinks = {
             new Drink("Sencha", "A popular green tea from Japan", R.drawable.sencha),
-            new Drink("Wakocha", "A popular black tea from Japan", R.drawable.sencha),
-            new Drink("Matcha", "Unique powdered green tea only exported from Japan", R.drawable.sencha)
+            new Drink("Wakocha", "A popular black tea from Japan", R.drawable.wakocha),
+            new Drink("Matcha", "Unique powdered green tea only exported from Japan", R.drawable.matcha)
     };
 
     //Each Drink has a name, description, and an image resource
