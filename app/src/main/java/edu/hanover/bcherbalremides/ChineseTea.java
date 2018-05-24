@@ -1,18 +1,18 @@
 package edu.hanover.bcherbalremides;
 
-public class ChinaDrink {
+public class ChineseTea {
     private String name;
     private String description;
     private int imageResourceId;
     //drinks is an array of Drinks
-    public static final ChinaDrink[] chinaDrinks = {
-            new ChinaDrink("Biluochun", "A common form on Chinese green tea", R.drawable.biluochun),
-            new ChinaDrink("Dianhong", "A popular Chinese black tea", R.drawable.dianhong),
-            new ChinaDrink("Pu-erh", "Unique to China, this tea is world renowned", R.drawable.puerh)
+    public static final ChineseTea[] chinaDrinks = {
+            new ChineseTea("Biluochun", "A common form on Chinese green tea", R.drawable.biluochun),
+            new ChineseTea("Dianhong", "A popular Chinese black tea", R.drawable.dianhong),
+            new ChineseTea("Pu-erh", "Unique to China, this tea is world renowned", R.drawable.puerh)
     };
 
     //Each Drink has a name, description, and an image resource
-    private Drink(String name, String description, int imageResourceId) {
+    private ChineseTea(String name, String description, int imageResourceId) {
         this.name = name;
         this.description = description;
         this.imageResourceId = imageResourceId;

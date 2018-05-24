@@ -13,7 +13,7 @@ public class BritainDrink {
     };
 
     //Each Drink has a name, description, and an image resource
-    private Drink(String name, String description, int imageResourceId) {
+    private BritainDrink(String name, String description, int imageResourceId) {
         this.name = name;
         this.description = description;
         this.imageResourceId = imageResourceId;
