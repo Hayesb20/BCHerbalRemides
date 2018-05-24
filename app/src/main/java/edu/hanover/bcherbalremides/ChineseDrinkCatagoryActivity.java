@@ -29,8 +29,8 @@ public class ChineseDrinkCatagoryActivity extends Activity {
                                             long id) {
                         //Pass the drink the user clicks on to DrinkActivity
                         Intent intent = new Intent(ChineseDrinkCatagoryActivity.this,
-                                DrinkActivity.class);
-                        intent.putExtra(DrinkActivity.EXTRA_DRINKID, (int) id);
+                                ChineseDrinkActivity.class);
+                        intent.putExtra(ChineseDrinkActivity.EXTRA_DRINK_ID, (int) id);
                         startActivity(intent);
                     }
                 };
