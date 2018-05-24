@@ -9,8 +9,7 @@
     android:paddingRight="16dp"
     android:paddingTop="16dp"
     android:background="#FFFFFF"
-    tools:context="edu.hanover.bcherbalremides.ChineseDrinkActivity"
-    >
+    tools:context="edu.hanover.bcherbalremides.ChineseDrinkActivity" >
 
     <ImageView
         android:id="@+id/photo1"
@@ -25,16 +24,14 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/photo1"
         android:layout_centerHorizontal="true"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        />
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
     <TextView
         android:id="@+id/description1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/name1"
-        android:layout_centerHorizontal="true"
-        />
+        android:layout_centerHorizontal="true" />
 
     <CheckBox
         android:id="@+id/checkBox"
