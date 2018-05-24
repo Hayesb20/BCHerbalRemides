@@ -4,6 +4,8 @@
     <string name="pickCountry">Please choose the country from which you want your tea</string>
     <string name="order">Place Order</string>
     <string name="response">Your order has been placed</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_share">Share</string>
 
     <string-array name="options">
         <item>Japan</item>
