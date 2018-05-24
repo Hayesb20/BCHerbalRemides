@@ -40,6 +40,4 @@ public class DrinkActivity extends Activity {
                 getResources().getString(R.string.response));
         startService(intent);
     }
-
-
 }

@@ -16,7 +16,7 @@ public class ChineseDrinkCatagoryActivity extends Activity {
         setContentView(R.layout.chinese_activity_drink_catagory);
         ArrayAdapter<ChineseTea> listAdapter = new ArrayAdapter<>(
                 this, android.R.layout.simple_list_item_1, ChineseTea.chinaDrinks);
-        ListView listDrinks = (ListView) findViewById(R.id.list_drinks2);
+        ListView listDrinks = (ListView) findViewById(R.id.list_drinks);
         listDrinks.setAdapter(listAdapter);
 
         //Create the listener

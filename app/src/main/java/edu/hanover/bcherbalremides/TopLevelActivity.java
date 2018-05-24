@@ -27,7 +27,7 @@ public class TopLevelActivity extends Activity {
                             startActivity(intent);
                         }
 
-                        else if (position == 1) {
+                         else if (position == 1) {
                             Intent intent = new Intent(TopLevelActivity.this,
                                     ChineseDrinkCatagoryActivity.class);
                             startActivity(intent);

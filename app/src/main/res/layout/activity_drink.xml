@@ -9,8 +9,8 @@
     android:paddingRight="16dp"
     android:paddingTop="16dp"
     android:background="#FFFFFF"
-    tools:context="edu.hanover.bcherbalremides.DrinkActivity"
-    >
+    tools:context="edu.hanover.bcherbalremides.DrinkActivity" >
+
 
     <ImageView
         android:id="@+id/photo"
