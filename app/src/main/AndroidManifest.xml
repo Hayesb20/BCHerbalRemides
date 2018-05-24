@@ -20,6 +20,7 @@
         <activity android:name=".DrinkActivity"> </activity>
 
         <activity android:name=".DrinkCategoryActivity"> </activity>
+        <activity android:name=".ChineseDrinkCatagoryActivity"> </activity>
 
         <service android:name=".DelayedMessageService"
                  android:exported="false"> </service>

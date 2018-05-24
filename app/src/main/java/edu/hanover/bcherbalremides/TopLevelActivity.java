@@ -26,6 +26,12 @@ public class TopLevelActivity extends Activity {
                                     DrinkCategoryActivity.class);
                             startActivity(intent);
                         }
+
+                        else if (position == 1) {
+                            Intent intent = new Intent(TopLevelActivity.this,
+                                    ChineseDrinkCatagoryActivity.class);
+                            startActivity(intent);
+                        }
                     }
                 };
         //Add the listener to the list view
