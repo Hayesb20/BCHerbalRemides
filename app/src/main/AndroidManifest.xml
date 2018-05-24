@@ -18,9 +18,13 @@
         </activity>
 
         <activity android:name=".DrinkActivity"> </activity>
-
         <activity android:name=".DrinkCategoryActivity"> </activity>
+
         <activity android:name=".ChineseDrinkCatagoryActivity"> </activity>
+        <activity android:name=".ChineseDrinkActivity"> </activity>
+
+        <activity android:name=".BritishDrinkCatagoryActivity"> </activity>
+        <activity android:name=".BritishDrinkActivity"> </activity>
 
         <service android:name=".DelayedMessageService"
                  android:exported="false"> </service>

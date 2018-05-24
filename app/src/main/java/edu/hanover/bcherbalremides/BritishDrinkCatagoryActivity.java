@@ -8,15 +8,15 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-public class ChineseDrinkCatagoryActivity extends Activity {
+public class BritishDrinkCatagoryActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.chinese_activity_drink_catagory);
-        ArrayAdapter<ChineseTea> listAdapter = new ArrayAdapter<>(
-                this, android.R.layout.simple_list_item_1, ChineseTea.chinaDrinks);
-        ListView listDrinks = (ListView) findViewById(R.id.list_drinks2);
+        setContentView(R.layout.british_activity_drink_catagory);
+        ArrayAdapter<BritishTea> listAdapter = new ArrayAdapter<>(
+                this, android.R.layout.simple_list_item_1, BritishTea.britainDrinks);
+        ListView listDrinks = (ListView) findViewById(R.id.list_drinks3);
         listDrinks.setAdapter(listAdapter);
 
         //Create the listener
@@ -28,9 +28,9 @@ public class ChineseDrinkCatagoryActivity extends Activity {
                                             int position,
                                             long id) {
                         //Pass the drink the user clicks on to DrinkActivity
-                        Intent intent = new Intent(ChineseDrinkCatagoryActivity.this,
-                                ChineseDrinkActivity.class);
-                        intent.putExtra(ChineseDrinkActivity.EXTRA_DRINK_ID, (int) id);
+                        Intent intent = new Intent(BritishDrinkCatagoryActivity.this,
+                                BritishDrinkActivity.class);
+                        intent.putExtra(BritishDrinkActivity.EXTRA_DRINK_ID, (int) id);
                         startActivity(intent);
                     }
                 };
